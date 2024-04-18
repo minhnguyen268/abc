@@ -25,8 +25,7 @@ const HuongDan = () => {
             mật khẩu
           </li>
           <li>Nhập số tiền và chọn ngân hàng muốn rút.</li>
-          // <li>Số tiền rút tối thiểu {convertJSXMoney(MIN_MONEY_WITHDRAW)}.</li>
-              <li>Số tiền rút tối thiểu 500.000đ.</li>
+          <li>Số tiền rút tối thiểu 500,000.</li>
           <li>Tiền sẽ tự động vào tài khoản trong vòng 1 phút, nếu thấy lâu có thể liên hệ bộ phận hỗ trợ.</li>
         </Typography>
       </Box>
