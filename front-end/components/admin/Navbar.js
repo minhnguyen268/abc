@@ -147,7 +147,7 @@ const Navbar = (props) => {
                     display: isExpandMenu ? "block" : "none",
                   }}
                 >
-                  SANDSGP
+                  WANGLONG
                 </Typography>
                 <Box
                   sx={{
