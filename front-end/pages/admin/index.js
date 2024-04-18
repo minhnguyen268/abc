@@ -2,7 +2,7 @@ import { Box } from "@mui/material";
 import { getSession, useSession } from "next-auth/react";
 import Head from "next/head";
 import Layout from "../../components/admin/Layout";
-import ReactAudioPlayer from "react-audio-player";
+// import ReactAudioPlayer from "react-audio-player";
 
 const Admin = () => {
   const { data: session, status } = useSession();
