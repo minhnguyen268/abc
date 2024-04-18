@@ -5,8 +5,8 @@ services:
       context: ./front-end
       dockerfile: Dockerfile
       args:
-        NEXTAUTH_URL: https://game68.fun
-        ENDPOINT_SERVER: https://admin.game68.fun
+        NEXTAUTH_URL: https://wanglong868.com
+        ENDPOINT_SERVER: https://admin.wanglong868.com
         NEXTAUTH_SECRET: bsad21451a2120d56rr95ca0f8e0bbcb
         LIMIT_RESULTS: 10
         JWT_ACCESSTOKEN_EXPIRED: 10d
