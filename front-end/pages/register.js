@@ -242,7 +242,7 @@ const DangKy = () => {
             <ErrorMessageLabel>{errors.phone ? errors.phone.message : ""}</ErrorMessageLabel>
           </FormControl>
 
-          {/* <FormControl
+          <FormControl
             sx={{
               display: "flex",
               flexDirection: "column",
@@ -263,7 +263,7 @@ const DangKy = () => {
               )}
               defaultValue=""
             />
-          </FormControl> */}
+          </FormControl>
 
           <Button type="submit" onClick={handleSubmit(onSubmit)} variant="contained">
             Đăng ký
