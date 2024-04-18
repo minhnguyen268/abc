@@ -72,9 +72,9 @@ class NguoiDungController {
     const settingData = await Setting.findOne({}).lean();
     console.log(settingData.maGioiThieu);
     console.log(maGioiThieu);
-    // if (settingData.maGioiThieu !== maGioiThieu) {
-    //   throw new BadRequestError("Mã giới thiệu không đúng");
-    // }
+    if (settingData.maGioiThieu !== maGioiThieu) {
+      throw new BadRequestError("Mã giới thiệu không đúng");
+    }
 
     if (!taiKhoan || !matKhau || !nhapLaiMatKhau || !soDienThoai) {
       throw new UnauthorizedError("Vui lòng nhập đầy đủ thông tin");
