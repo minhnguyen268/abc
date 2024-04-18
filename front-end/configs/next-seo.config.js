@@ -1,12 +1,12 @@
 const NextSeoConfig = {
   title: null,
-  titleTemplate: "%s | Xổ số SandSGP",
-  defaultTitle: "Xổ số SandSGP",
-  description: "SandSGP - Hệ thống chơi xổ số trực tuyến",
+  titleTemplate: "%s | Xổ số WangLong",
+  defaultTitle: "Xổ số WangLong",
+  description: "WangLong - Hệ thống chơi xổ số trực tuyến",
   additionalMetaTags: [
     {
       property: "keywords",
-      content: "megalott, xo so, xoso, keno, keno 1p, keno 3p, keno 5p, keno online",
+      content: "wanglong, xo so, xoso, keno, keno 1p, keno 3p, keno 5p, keno online",
     },
     {
       name: "viewport",
@@ -23,8 +23,8 @@ const NextSeoConfig = {
     type: "website",
     locale: "vi_VN",
     url: process.env.NEXTAUTH_URL,
-    siteName: "Xổ số SandSGP",
-    description: "Xổ số SandSGP",
+    siteName: "Xổ số WangLong",
+    description: "Xổ số WangLong",
     images: [
       {
         url: "https://i.ibb.co/0cQnxF3/bannerimg.jpg",
@@ -37,8 +37,8 @@ const NextSeoConfig = {
     appId: process.env.FACEBOOK_APPID,
   },
   twitter: {
-    handle: "@SandSGP",
-    site: "@SandSGP",
+    handle: "@WangLong",
+    site: "@WangLong",
     cardType: "summary_large_image",
   },
 };
