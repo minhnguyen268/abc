@@ -1,6 +1,6 @@
 # About APP
 
-- **Name:** MEGALOTT
-- **Author**: LE THINH
+- **Name:** WANG LONG
+- **Author**: WANG LONG
 - **Homeurl**:
 - **Thank for visited!**
