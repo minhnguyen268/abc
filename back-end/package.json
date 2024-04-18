@@ -12,7 +12,7 @@
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
   },
-  "author": "Van Thinh Le",
+  "author": "Wanglong",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.26.1",
